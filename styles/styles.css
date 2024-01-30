@@ -1,18 +1,51 @@
-body{
-    background-color: rgb(226, 229, 228);
+
+body{ 
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* this is targeting a class in html */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 152, 199);
+}
 .nav_link {
+   
     padding:10px;
     color: black;
     font-size: 1.3em;
+    text-decoration: none;
 }
 
 img{
-    width: 300px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+
+}
+nav a:hover {
+    color:white;
+    background-color: black;
 }
 #main_title{
     font-size: 4em;
-    
+    text-align: center;
 }
+p{
+    text-align: center;
+}
+footer{
+    background-color:rgb(95, 152, 199);
+    padding: 15px;
+    font-size: x-large;
+}
+footer a {
+    color: black;
+}
+
