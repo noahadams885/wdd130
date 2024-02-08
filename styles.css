@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-body{ 
+
+body {
     padding: 0;
     margin: 0;
     background-color: rgb(255, 255, 255);
-    
 }
+
 #content {
     max-width: 1200px;
     margin: 0 auto;
@@ -15,53 +16,50 @@ nav {
     display: flex;
     justify-content: center;
     background-color: rgb(95, 152, 199);
-
-
 }
+
 .nav_link {
-   
-    padding:10px;
+    padding: 10px;
     color: black;
     font-size: 1.3em;
     text-decoration: none;
 }
 
-img{
+img {
     width: 40%;
     display: block;
     margin: 0 auto;
     border: 3px solid black;
     border-radius: 5px;
-
 }
 
 nav a:hover {
-    color:white;
+    color: white;
     background-color: black;
 }
 
-#main_title{
+#main_title {
     font-size: 4em;
     text-align: center;
-    font-family: "Protest Riot", 'Arial', sans-serif;
+    font-family: "Protest Riot", Arial, sans-serif;
 }
 
- main p{
+main p {
     text-align: center;
     width: 60%;
     margin: 20px auto;
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 50px;
-    background-color:rgb(95, 152, 199) ;
+    background-color: rgb(95, 152, 199);
     border: 5px solid black;
     color: white;
     box-sizing: border-box;
     border-radius: 5px;
 }
 
-footer{
-    background-color:rgb(95, 152, 199);
+footer {
+    background-color: rgb(95, 152, 199);
     padding: 10px;
     font-size: 2em;
     text-align: center;
@@ -69,9 +67,9 @@ footer{
 
 footer a {
     color: black;
-   }
+}
 
-   div{
+div {
     max-width: 1600px;
     margin: 0 auto;
 }
