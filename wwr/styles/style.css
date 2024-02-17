@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Riot&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +12,8 @@ nav a, footer a {
 
 #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
+   font-family: g
+   
 }
 
 #background {
